@@ -1,0 +1,33 @@
+// Task 9
+import 'dart:math';
+
+void longest (var a, var b)
+{
+  final someset = <String>{};
+  for(var codePoint in a.runes)
+  {
+     someset.add(String.fromCharCode(codePoint));
+  }
+  final someset1 = <String>{};
+  for (var codePoint1 in b.runes)
+  {
+    someset1.add(String.fromCharCode(codePoint1));
+  }
+  var  allset = <String>[];
+    allset.addAll(someset);
+    allset.addAll(someset1);
+    print(allset);
+}
+
+void main() 
+{
+  var a = 'xyaaabccccceeee';
+  var b = 'xxxxyyyyyabbbkkkll';
+  longest(a, b);
+  
+  
+
+  
+} 
+
+

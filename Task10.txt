@@ -1,0 +1,28 @@
+//task 10
+
+import 'dart:math';
+
+bool Xo(String name1){
+  int countx=0,count0 = 0;
+  for (var rune in name1.runes)
+  {
+    if(rune==120)
+    {
+      countx++;
+    }else if (rune ==111){
+      count0++;
+    }else {
+      continue;
+    }
+  }
+  return count0 == countx;
+}
+
+void main() 
+{
+  String name  = "xxxooo";
+  print(Xo(name));
+
+} 
+
+

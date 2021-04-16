@@ -1,0 +1,9 @@
+import 'dart:io';
+
+void main() {
+ String name = "abdushukur";
+ print(name);
+ var age = 18;
+ var age1 = 100 - age;
+ print ("$age1 need to be 100 years old");
+}

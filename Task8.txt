@@ -1,0 +1,21 @@
+//Task 8
+import 'dart:math';
+
+void main() 
+{
+
+  const list = [1,2,3,4];
+  for (var list1 in list)
+  {
+    if (list1 % 2 == 0){
+    print(list1);
+    print("this is boys");}
+    else if  (list1 % 2 == 1)  // if it is odd it return boy, otherwise girls.
+    {
+      print(list1);
+      print("this is girls");
+    };
+    
+  }
+
+}
